@@ -34,21 +34,33 @@ _ Watch this walk through video:  https://youtu.be/P2Y9W29kcjs
 
 - [X] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repo). **Please don't merge your own pull request**
 - [X] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by merging the branch back into master.
+- [ ] PM then will count the HW as done by merging the branch back into master. *Comment: I can't check this off yet until NLB510 merges the branches).
 
 ## MVP Requirements
 
-- [ ] Study the code base and identify both responsive units and where media queries were used.  Take notes on anything that confuses you or interesting things you find.  Share this information in your standup meeting with your group
-- [ ] Customize the template to you 
+- [X] Study the code base and identify both responsive units and where media queries were used.  Take notes on anything that confuses you or interesting things you find.  Share this information in your standup meeting with your group
+- [X] Customize the template to you 
 	- [X] Update the title tag match your name
 	- [X] Update the place holder content throughout the template to your information
 		* Some templates are much larger than others, you don't need to fill in every little div with information, just try to get the site representing you and your work 
 		* You can use sites like [https://www.pexels.com/](https://www.pexels.com/) for free images to fill in place holders
 		* Showcase projects you have worked on by providing some information and links to your git hub projects
-- [ ] Implement proper attribution: Attribution is required under the [creative commons license](https://html5up.net/license) that came with the website files you downloaded.  Be sure to provide attribution somewhere in the site.  The templates should already come with attribution found in most footers but double check to be sure.
+- [X] Implement proper attribution: Attribution is required under the [creative commons license](https://html5up.net/license) that came with the website files you downloaded.  Be sure to provide attribution somewhere in the site.  The templates should already come with attribution found in most footers but double check to be sure.
 - [X] Host your website for the world to see. Follow the instructions found here [https://pages.github.com/](https://pages.github.com/).  Once you have hosted your web page, share it for your peers to see.  This is not a small feat!
 
 ## Stretch
 
-- [ ] Study the JavaScript used in your template and see if you can tweak any of the behavior to see how it works
-- [ ] Download another template and see if you can get the CSS preprocessor working on the project
+- [X] Study the JavaScript used in your template and see if you can tweak any of the behavior to see how it works *Comment: From main.js it looks like they installed something to handle breakpoints and scrolly so there's smooth scrolling. I adjust smooth scrolling (Scrolly) so things would move a bit faster*
+- [ ] Download another template and see if you can get the CSS preprocessor working on the project *Comment: I should do this at some point*
+
+
+## Reflections on this Project:
+- It can be daunting to look at a pre-made template, especially at someone else's fully fleshed HTML/CSS, and it's the product of a long decision-making process.
+- I would have really appreciated some great documentation
+- 
+
+### Breakthroughs/Things Learned:
+- I learned about additional CSS selectors, properties and values.
+- Application of multiple classes that can function like media queries; if I assign multiple classes to something, does the last class applied win out?
+- max-width: calc(percentage-px value)
+### Challenges:

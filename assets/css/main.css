@@ -226,7 +226,7 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		/*This is interesting, I've never seen calc before*/
+		/*This is interesting, I've never seen calc before; it's doing exactly what it says here*/
 		max-width: calc(100% - 50px);
 		width: 1200px;
 	}
@@ -234,7 +234,7 @@ input, select, textarea {
 		.container.medium {
 			width: 900px;
 		}
-
+		/*The "screen" bit indicates that this is intended for screens. These media queries identify the breakpoint.*/
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -285,12 +285,13 @@ input, select, textarea {
 		}
 
 /* Row */
-
+	/*note the indentation of the css, when multiple classes are being applied*/
 	.row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		/*Align-items is a good one. It stretches the flex-items so that they fill the width of the parent node, usually the container*/
 	}
 
 		.row > * {
@@ -477,6 +478,7 @@ input, select, textarea {
 				}
 
 		.row {
+			/*Negative margins are trippy, this indicates that it's pulling the items with class row up by 25 px and to the left 25px*/
 			margin-top: -25px;
 			margin-left: -25px;
 		}
