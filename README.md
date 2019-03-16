@@ -53,14 +53,21 @@ _ Watch this walk through video:  https://youtu.be/P2Y9W29kcjs
 - [X] Study the JavaScript used in your template and see if you can tweak any of the behavior to see how it works *Comment: From main.js it looks like they installed something to handle breakpoints and scrolly so there's smooth scrolling. I adjust smooth scrolling (Scrolly) so things would move a bit faster*
 - [ ] Download another template and see if you can get the CSS preprocessor working on the project *Comment: I should do this at some point*
 
+## Comments:
+
+## Link to Pull Request:
+- [https://github.com/arturolei/portfolio-website/pull/1](https://github.com/arturolei/portfolio-website/pull/1)
 
 ## Reflections on this Project:
 - It can be daunting to look at a pre-made template, especially at someone else's fully fleshed HTML/CSS, and it's the product of a long decision-making process.
-- I would have really appreciated some great documentation
-- 
+- I would have really appreciated some great documentation or more detailed commentary. Then again, maybe this was never intended to be readable or highly readable by someone other than the template designer. 
 
 ### Breakthroughs/Things Learned:
 - I learned about additional CSS selectors, properties and values.
 - Application of multiple classes that can function like media queries; if I assign multiple classes to something, does the last class applied win out?
 - max-width: calc(percentage-px value)
+
 ### Challenges:
+- I had to relearn the gh-pages workflow. Do I have to `git push origin gh-pages` after merging into gh-pages branch. 
+- I need to get comfortable with unclear or ambiguous documentation notes. 
+- The template I chose features a submit form. How do I make that work?
