@@ -64,8 +64,9 @@ _ Watch this walk through video:  https://youtu.be/P2Y9W29kcjs
 
 ### Breakthroughs/Things Learned:
 - I learned about additional CSS selectors, properties and values.
-- Application of multiple classes that can function like media queries; if I assign multiple classes to something, does the last class applied win out?
-- max-width: calc(percentage-px value)
+- Application of multiple classes that can function like media queries(?!); if I assign multiple classes to something, does the last class applied win out?
+- I learned about `max-width: calc(percentage-px value)`
+- It was valuable to see how other people organize CSS, e.g. indentations.
 
 ### Challenges:
 - I had to relearn the gh-pages workflow. Do I have to `git push origin gh-pages` after merging into gh-pages branch. 
