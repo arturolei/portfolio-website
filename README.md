@@ -10,45 +10,65 @@ You have the ability to write HTML, CSS, and responsive media queries.  You also
 
 _ Watch this walk through video:  https://youtu.be/P2Y9W29kcjs
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch on the clone: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on the `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add PM as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch on the clone: `git checkout -b <firstName-lastName>`.
+- [X] Implement the project on the `<firstName-lastName>` branch, committing changes regularly.
+- [X] Push commits: `git push origin <firstName-lastName>`.
 
 ### Follow these steps to download your template and start the project:
 
-- [ ] Navigate here: [https://html5up.net/](https://html5up.net/)
-- [ ] You make pick any template you like.  Here are some good choices for a portfolio:
+- [X] Navigate here: [https://html5up.net/](https://html5up.net/)
+- [X] You make pick any template you like.  Here are some good choices for a portfolio:
 	- [https://html5up.net/story](https://html5up.net/story)
 	- [https://html5up.net/solid-state](https://html5up.net/solid-state)
 	- [https://html5up.net/miniport](https://html5up.net/miniport)
 	- [https://html5up.net/dimension](https://html5up.net/dimension)
 
-- [ ] Unzip the code and copy the site to your git repository that you just set up
+- [X] Unzip the code and copy the site to your git repository that you just set up
   * Note that we won't be utilizing the pre processed CSS structure, you can just ignore any folder with LESS or SASS (SCSS) in it.
 - [ ] Work on the MVP requirements listed below
 
 ### Follow these steps for completing your project after your MVP is completed:
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repo). **Please don't merge your own pull request**
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by merging the branch back into master.
+- [X] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repo). **Please don't merge your own pull request**
+- [X] Add your Project Manager as a Reviewer on the Pull-request
+- [ ] PM then will count the HW as done by merging the branch back into master. *Comment: I can't check this off yet until NLB510 merges the branches).
 
 ## MVP Requirements
 
-- [ ] Study the code base and identify both responsive units and where media queries were used.  Take notes on anything that confuses you or interesting things you find.  Share this information in your standup meeting with your group
-- [ ] Customize the template to you 
-	- [ ] Update the title tag match your name
-	- [ ] Update the place holder content throughout the template to your information
+- [X] Study the code base and identify both responsive units and where media queries were used.  Take notes on anything that confuses you or interesting things you find.  Share this information in your standup meeting with your group
+- [X] Customize the template to you 
+	- [X] Update the title tag match your name
+	- [X] Update the place holder content throughout the template to your information
 		* Some templates are much larger than others, you don't need to fill in every little div with information, just try to get the site representing you and your work 
 		* You can use sites like [https://www.pexels.com/](https://www.pexels.com/) for free images to fill in place holders
 		* Showcase projects you have worked on by providing some information and links to your git hub projects
-- [ ] Implement proper attribution: Attribution is required under the [creative commons license](https://html5up.net/license) that came with the website files you downloaded.  Be sure to provide attribution somewhere in the site.  The templates should already come with attribution found in most footers but double check to be sure.
-- [ ] Host your website for the world to see. Follow the instructions found here [https://pages.github.com/](https://pages.github.com/).  Once you have hosted your web page, share it for your peers to see.  This is not a small feat!
+- [X] Implement proper attribution: Attribution is required under the [creative commons license](https://html5up.net/license) that came with the website files you downloaded.  Be sure to provide attribution somewhere in the site.  The templates should already come with attribution found in most footers but double check to be sure.
+- [X] Host your website for the world to see. Follow the instructions found here [https://pages.github.com/](https://pages.github.com/).  Once you have hosted your web page, share it for your peers to see.  This is not a small feat!
 
 ## Stretch
 
-- [ ] Study the JavaScript used in your template and see if you can tweak any of the behavior to see how it works
-- [ ] Download another template and see if you can get the CSS preprocessor working on the project
+- [X] Study the JavaScript used in your template and see if you can tweak any of the behavior to see how it works *Comment: From main.js it looks like they installed something to handle breakpoints and scrolly so there's smooth scrolling. I adjust smooth scrolling (Scrolly) so things would move a bit faster*
+- [ ] Download another template and see if you can get the CSS preprocessor working on the project *Comment: I should do this at some point*
+
+## Comments:
+
+## Link to Pull Request:
+- [https://github.com/arturolei/portfolio-website/pull/1](https://github.com/arturolei/portfolio-website/pull/1)
+
+## Reflections on this Project:
+- It can be daunting to look at a pre-made template, especially at someone else's fully fleshed HTML/CSS, and it's the product of a long decision-making process.
+- I would have really appreciated some great documentation or more detailed commentary. Then again, maybe this was never intended to be readable or highly readable by someone other than the template designer. 
+
+### Breakthroughs/Things Learned:
+- I learned about additional CSS selectors, properties and values.
+- Application of multiple classes that can function like media queries(?!); if I assign multiple classes to something, does the last class applied win out?
+- I learned about `max-width: calc(percentage-px value)`
+- It was valuable to see how other people organize CSS, e.g. indentations.
+
+### Challenges:
+- I had to relearn the gh-pages workflow. Do I have to `git push origin gh-pages` after merging into gh-pages branch. 
+- I need to get comfortable with unclear or ambiguous documentation notes. 
+- The template I chose features a submit form. How do I make that work?
